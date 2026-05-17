@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    border: 0; 
+    font-family: 'Poppins', sans-serif;
+    background-color: blue;
+}
+
+
+.main-box{
+    height: 40vh;
+    width: 30%;
+    background-color: rgb(0, 255, 21);
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    transition: all 0.3s ease;
+}
+.main-box:hover{
+    border: 5px solid black;
+}
+
+.blue{
+    height: 30vh;
+    width: 80%;
+    transition: all 0.3s ease;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+}
+.blue:hover{
+    border: 5px solid black;
+}
+
+.heading{
+    margin: auto;
+    color: aliceblue;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.blue ul{
+    list-style: none;
+    margin: auto;
+    /* font-size: 1rem; */
+    display: flex;
+    justify-content: flex-start;
+    gap: 3rem;
+    margin-left: 2rem;
+
+}
+
+.blue input{
+    height: 2rem;
+    width: 5rem;
+    border-radius: 2rem;
+}
+.blue input :hover{
+    cursor: crosshair;
+}
+
+.action-btn{
+    font-size: 1rem;
+    transition: all 0.2s ease;
+}
+.action-btn:hover{
+    background-color: greenyellow;
+    cursor: crosshair;
+    transform: scale(1.1 , 1.2);
+}
+
+table {
+  width: 100%;
+  /* border-collapse: collapse; Removes double borders */
+  color: aliceblue;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
